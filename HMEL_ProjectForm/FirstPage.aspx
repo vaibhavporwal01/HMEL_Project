@@ -47,6 +47,23 @@
             opacity: 0.3;
         }
         
+        .logo-container {
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .company-logo {
+            max-width: 200px;
+            height: auto;
+            filter: brightness(1.1) contrast(1.1);
+            transition: all 0.3s ease;
+        }
+
+        .company-logo:hover {
+            transform: scale(1.05);
+        }
+        
         .header h1 {
             font-size: 32px;
             font-weight: 700;
@@ -56,11 +73,12 @@
         }
         
         .header h2 {
-            font-size: 18px;
-            font-weight: 300;
-            opacity: 0.9;
+            font-size: 20px;
+            font-weight: 400;
+            opacity: 0.95;
             position: relative;
             z-index: 1;
+            margin-top: 10px;
         }
         
         .form-content {
@@ -241,7 +259,7 @@
             border-top: 2px solid #e5e7eb;
         }
         
-     
+        /* Responsive Design */
         @media (max-width: 768px) {
             .form-row {
                 flex-direction: column;
@@ -274,7 +292,7 @@
             }
         }
         
-       
+        /* Animation for form sections */
         .section {
             animation: slideInUp 0.6s ease-out;
         }
@@ -290,7 +308,7 @@
             }
         }
         
-        
+        /* Custom styling for dropdowns */
         .form-group select {
             background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23666" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
             background-repeat: no-repeat;
@@ -298,14 +316,122 @@
             background-size: 12px;
             appearance: none;
         }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-cancel {
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+        }
+
+        .btn-cancel:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(220, 38, 38, 0.4);
+            background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+        }
+
+        .btn-draft {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+        }
+
+        .btn-draft:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(245, 158, 11, 0.4);
+            background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+        }
+
+        .draft-message {
+            color: #f59e0b;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(145deg, #fef3c7 0%, #fde68a 100%);
+            border: 2px solid #f59e0b;
+            border-radius: 12px;
+            margin-top: 25px;
+            box-shadow: 0 4px 15px rgba(245, 158, 11, 0.2);
+        }
+
+        .cancel-message {
+            color: #dc2626;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(145deg, #fee2e2 0%, #fecaca 100%);
+            border: 2px solid #dc2626;
+            border-radius: 12px;
+            margin-top: 25px;
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .button-group {
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .btn-cancel,
+            .btn-draft,
+            .btn-submit {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .company-logo {
+                max-width: 150px;
+            }
+    
+            .header h2 {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .company-logo {
+                max-width: 120px;
+            }
+    
+            .header h2 {
+                font-size: 16px;
+            }
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="container">
             <div class="header">
-                <h1>HMEL</h1>
-                <h2>Hindustan Mittal Energy Limited - Job Application Form</h2>
+                <div class="logo-container">
+                    <!-- Updated path for Images folder -->
+                    <img src="Images/hmel-logo.png" alt="HMEL - Hindustan Mittal Energy Limited" class="company-logo" />
+                </div>
+                <h2>Job Application Form</h2>
             </div>
             
             <div class="form-content">
@@ -626,10 +752,16 @@
                     </div>
                 </div>
                 
-                <!-- Submit Button -->
+                <!-- Submit Buttons Section -->
                 <div class="submit-section">
-                    <asp:Button ID="btnSubmit" runat="server" Text="Submit Application" 
-                        CssClass="btn-submit" OnClick="btnSubmit_Click" />
+                    <div class="button-group">
+                        <asp:Button ID="btnCancel" runat="server" Text="Cancel Application" 
+                            CssClass="btn-cancel" OnClick="btnCancel_Click" CausesValidation="false" />
+                        <asp:Button ID="btnSaveDraft" runat="server" Text="Save as Draft" 
+                            CssClass="btn-draft" OnClick="btnSaveDraft_Click" CausesValidation="false" />
+                        <asp:Button ID="btnSubmit" runat="server" Text="Submit Application" 
+                            CssClass="btn-submit" OnClick="btnSubmit_Click" />
+                    </div>
                 </div>
                 
                 <!-- Success/Error Messages -->
