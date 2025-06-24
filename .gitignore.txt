@@ -1,0 +1,73 @@
+# Java/Android
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# Android specific
+.gradle/
+.idea/
+build/
+captures/
+output.json
+local.properties
+*.keystore
+*.jks
+*.dex
+*.apk
+*.ap_
+
+# ASP.NET / Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.Cache
+*.dbmdl
+
+# MySQL config or dump files
+*.sql
+*.db
+*.sqlite
+*.bak
+
+# OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Environment files
+.env
+.env.*
+
+# Node/npm if present
+node_modules/
+npm-debug.log*
+
+# Git
+*.orig
+
+# VS Code
+.vscode/
+.history/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Ignore Visual Studio internal files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dbmdl
+

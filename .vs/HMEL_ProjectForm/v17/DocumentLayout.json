@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E08503F-9434-4975-854B-45F422CF7C4A}|HMEL_ProjectForm\\HMEL_ProjectForm.csproj|C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\hmel_projectform\\firstpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5E08503F-9434-4975-854B-45F422CF7C4A}|HMEL_ProjectForm\\HMEL_ProjectForm.csproj|solutionrelative:hmel_projectform\\firstpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E08503F-9434-4975-854B-45F422CF7C4A}|HMEL_ProjectForm\\HMEL_ProjectForm.csproj|C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\hmel_projectform\\firstpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E08503F-9434-4975-854B-45F422CF7C4A}|HMEL_ProjectForm\\HMEL_ProjectForm.csproj|solutionrelative:hmel_projectform\\firstpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E08503F-9434-4975-854B-45F422CF7C4A}|HMEL_ProjectForm\\HMEL_ProjectForm.csproj|c:\\users\\intel\\source\\repos\\hmel_projectform\\hmel_projectform\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5E08503F-9434-4975-854B-45F422CF7C4A}|HMEL_ProjectForm\\HMEL_ProjectForm.csproj|solutionrelative:hmel_projectform\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E08503F-9434-4975-854B-45F422CF7C4A}|HMEL_ProjectForm\\HMEL_ProjectForm.csproj|C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\hmel_projectform\\firstpage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E08503F-9434-4975-854B-45F422CF7C4A}|HMEL_ProjectForm\\HMEL_ProjectForm.csproj|solutionrelative:hmel_projectform\\firstpage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FirstPage.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\HMEL_ProjectForm\\FirstPage.aspx.designer.cs",
+              "RelativeDocumentMoniker": "HMEL_ProjectForm\\FirstPage.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\HMEL_ProjectForm\\FirstPage.aspx.designer.cs",
+              "RelativeToolTip": "HMEL_ProjectForm\\FirstPage.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T06:23:42.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\HMEL_ProjectForm\\Web.config",
+              "RelativeDocumentMoniker": "HMEL_ProjectForm\\Web.config",
+              "ToolTip": "C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\HMEL_ProjectForm\\Web.config",
+              "RelativeToolTip": "HMEL_ProjectForm\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-24T06:15:42.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FirstPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\HMEL_ProjectForm\\FirstPage.aspx.cs",
+              "RelativeDocumentMoniker": "HMEL_ProjectForm\\FirstPage.aspx.cs",
+              "ToolTip": "C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\HMEL_ProjectForm\\FirstPage.aspx.cs",
+              "RelativeToolTip": "HMEL_ProjectForm\\FirstPage.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T05:50:58.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FirstPage.aspx",
+              "DocumentMoniker": "C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\HMEL_ProjectForm\\FirstPage.aspx",
+              "RelativeDocumentMoniker": "HMEL_ProjectForm\\FirstPage.aspx",
+              "ToolTip": "C:\\Users\\Intel\\source\\repos\\HMEL_ProjectForm\\HMEL_ProjectForm\\FirstPage.aspx",
+              "RelativeToolTip": "HMEL_ProjectForm\\FirstPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-24T05:49:45.846Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
