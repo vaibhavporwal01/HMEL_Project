@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Intel\\source\\repos\\HMELApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{427594E9-FB8E-4785-BE51-6B66C6946673}|HMELApplication\\HMELApplication.csproj|c:\\users\\intel\\source\\repos\\hmelapplication\\hmelapplication\\admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427594E9-FB8E-4785-BE51-6B66C6946673}|HMELApplication\\HMELApplication.csproj|solutionrelative:hmelapplication\\admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427594E9-FB8E-4785-BE51-6B66C6946673}|HMELApplication\\HMELApplication.csproj|C:\\Users\\Intel\\source\\repos\\HMELApplication\\hmelapplication\\firstpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{427594E9-FB8E-4785-BE51-6B66C6946673}|HMELApplication\\HMELApplication.csproj|solutionrelative:hmelapplication\\firstpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427594E9-FB8E-4785-BE51-6B66C6946673}|HMELApplication\\HMELApplication.csproj|C:\\Users\\Intel\\source\\repos\\HMELApplication\\hmelapplication\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{427594E9-FB8E-4785-BE51-6B66C6946673}|HMELApplication\\HMELApplication.csproj|solutionrelative:hmelapplication\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427594E9-FB8E-4785-BE51-6B66C6946673}|HMELApplication\\HMELApplication.csproj|C:\\Users\\Intel\\source\\repos\\HMELApplication\\hmelapplication\\filehandler..ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427594E9-FB8E-4785-BE51-6B66C6946673}|HMELApplication\\HMELApplication.csproj|solutionrelative:hmelapplication\\filehandler..ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FirstPage.aspx",
+              "DocumentMoniker": "C:\\Users\\Intel\\source\\repos\\HMELApplication\\HMELApplication\\FirstPage.aspx",
+              "RelativeDocumentMoniker": "HMELApplication\\FirstPage.aspx",
+              "ToolTip": "C:\\Users\\Intel\\source\\repos\\HMELApplication\\HMELApplication\\FirstPage.aspx",
+              "RelativeToolTip": "HMELApplication\\FirstPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-30T10:04:21.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileHandler..ashx.cs",
+              "DocumentMoniker": "C:\\Users\\Intel\\source\\repos\\HMELApplication\\HMELApplication\\FileHandler..ashx.cs",
+              "RelativeDocumentMoniker": "HMELApplication\\FileHandler..ashx.cs",
+              "ToolTip": "C:\\Users\\Intel\\source\\repos\\HMELApplication\\HMELApplication\\FileHandler..ashx.cs",
+              "RelativeToolTip": "HMELApplication\\FileHandler..ashx.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:56:25.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminDashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Intel\\source\\repos\\HMELApplication\\HMELApplication\\AdminDashboard.aspx.cs",
+              "RelativeDocumentMoniker": "HMELApplication\\AdminDashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\Intel\\source\\repos\\HMELApplication\\HMELApplication\\AdminDashboard.aspx.cs",
+              "RelativeToolTip": "HMELApplication\\AdminDashboard.aspx.cs",
+              "ViewState": "AgIAABoEAAAAAAAAAAAiwDoEAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:07:38.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminDashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\Intel\\source\\repos\\HMELApplication\\HMELApplication\\AdminDashboard.aspx",
+              "RelativeDocumentMoniker": "HMELApplication\\AdminDashboard.aspx",
+              "ToolTip": "C:\\Users\\Intel\\source\\repos\\HMELApplication\\HMELApplication\\AdminDashboard.aspx",
+              "RelativeToolTip": "HMELApplication\\AdminDashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-30T07:31:56.697Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

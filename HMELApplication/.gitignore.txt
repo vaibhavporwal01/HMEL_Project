@@ -1,0 +1,82 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Web server settings
+.vs/
+*.vspscc
+*.vssscc
+
+# IIS / Web config backups
+_IISExpress/
+*.iis
+*.publish.xml
+*.orig
+
+# DotCover
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+.nuget/
+
+# Entity Framework
+*.vscode/
+*.dbmdl
+*.bak
+*.mdf
+*.ldf
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Publish artifacts
+*.Publish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# Rider
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.sqlite
+
+# Others
+*.swp
+*.scc
+*.pdb
+*.class
+*.exe
+*.dll
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# ASP.NET-specific settings
+App_Data/
+App_Logs/
